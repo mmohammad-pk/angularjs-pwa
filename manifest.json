@@ -43,7 +43,7 @@
             "sizes": "512x512"
         }
     ],
-    "scope": "/angularjs-pwa/",
+    "scope": "/",
     "start_url": "/",
     "background_color": "#3367D6",
     "display": "standalone",
