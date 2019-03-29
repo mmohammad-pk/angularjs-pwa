@@ -1,0 +1,200 @@
+h2, label {
+    color: #fff;
+}
+
+.slider-selection {
+    background: #f77500 !important;
+}
+
+.slider-success .slider-selection {
+    background-color: #5cb85c !important;
+}
+
+.slider-primary .slider-selection {
+    background-color: #428bca !important;
+}
+
+.slider-info .slider-selection {
+    background-color: #5bc0de !important;
+}
+
+.slider-warning .slider-selection {
+    background-color: #f0ad4e !important;
+}
+
+.slider-danger .slider-selection {
+    background-color: #d9534f !important;
+}
+
+.slider.slider-horizontal {
+    width: 100% !important;
+    height: 20px;
+}
+
+.slider-handle {
+    background-color: #fff !important;
+    background-image: none !important;
+    box-shadow: 1px 1px 24px -2px rgba(0, 0, 0, 0.75) !important;
+}
+
+.slider-strips .slider-selection {
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(255, 252, 252, 0.08) 5px, rgba(252, 252, 252, 0.08) 10px) !important;
+    background-image: -webkit-repeating-linear-gradient(-45deg, transparent, transparent 5px, rgba(255, 252, 252, 0.08) 5px, rgba(252, 252, 252, 0.08) 10px) !important;
+}
+
+.tooltip-inner {
+    max-width: 200px;
+    padding: 3px 8px;
+    color: #bdbdbd !important;
+    text-align: center;
+    background-color: transparent !important;
+    border-radius: 4px;
+}
+
+.tooltip.top .tooltip-arrow {
+    display: none !important;
+}
+
+.slider .tooltip.top {
+    margin-top: -25px !important;
+}
+
+.well {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    width: 100% !important;
+    padding: 0;
+}
+
+.slider-ghost .slider-track {
+    height: 5px !important;
+}
+
+.slider-ghost .slider-handle {
+    top: -2px !important;
+    border: 5px solid #f77500;
+}
+
+.slider-success.slider-ghost .slider-handle {
+    border-color: #5cb85c;
+}
+
+.slider-primary.slider-ghost .slider-handle {
+    border-color: #428bca;
+}
+
+.slider-info.slider-ghost .slider-handle {
+    border-color: #5bc0de;
+}
+
+.slider-warning.slider-ghost .slider-handle {
+    border-color: #f0ad4e;
+}
+
+.slider-danger.slider-ghost .slider-handle {
+    border-color: #d9534f;
+}
+
+.switch {
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.switch+.switch-body {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    float: left;
+    margin-right: 10px;
+}
+
+.switch+.switch-body:before {
+    content: "";
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    border-radius: 100px;
+    top: auto;
+}
+
+.switch+.switch-body+.switch-text {
+    display: inline-block;
+    padding-top: 5px;
+}
+
+.switch.switch-bootstrap+.switch-body:before {
+    background-color: pink;
+    width: 50px;
+    height: 30px;
+    transition: background 0.1s ease;
+}
+
+.switch.switch-bootstrap+.switch-body:after {
+    content: '';
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    background-color: #fff;
+    border: 4px solid #fff;
+    transition: left 0.2s ease;
+}
+
+.switch.switch-bootstrap:checked+.switch-body:after {
+    left: 21px;
+    background-color: #FFF;
+    border: 4px solid #FFF;
+    text-shadow: 0 -1px 0 rgba(0, 200, 0, 0.25);
+}
+
+/* CSS3 on/off switches */
+
+.switch-primary>.switch.switch-bootstrap:checked+.switch-body::before {
+    background-color: #1dcc7d;
+}
+
+.switch-success>.switch.switch-bootstrap:checked+.switch-body::before {
+    background-color: #5cb85c;
+}
+
+.switch-danger>.switch.switch-bootstrap:checked+.switch-body::before {
+    background-color: #d9534f;
+}
+
+.switch-info>.switch.switch-bootstrap:checked+.switch-body::before {
+    background-color: #5bc0de;
+}
+
+.switch-warning>.switch.switch-bootstrap:checked+.switch-body::before {
+    background-color: #f0ad4e;
+}/* styles in src/style directory are applied to the whole page */
+
+body {
+  background: #0147A7;
+}
+
+a {
+  color: #03A9F4;
+}
+
+main {
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+}
+/*# sourceMappingURL=app.c233e0aaaede9533e5e5.css.map*/
